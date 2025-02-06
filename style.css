@@ -1,0 +1,79 @@
+body {
+    font-family: "Chewy", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #CC7E85;
+  }
+  h1, h2, h3, p {
+    color: #B4C5E4;
+    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+  }
+  h1 {
+    font-size: 100px;
+    margin: 0px;
+  }
+  .flower {
+    width: 200px;
+    height: 200px;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .startButtonDiv {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+  button:hover {
+    background-color: #a5b6d6;
+  }
+  button:active {
+    background-color: #a5b6d6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .questionImageDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .questionImage {
+    height: 240px;
+  }
+  .optionsDiv {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+  }
+  button {
+    height: 100px;
+    width: 200px;
+    font-size: 35px;
+    font-family: "Chewy", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    border: none;
+    background-color: #B4C5E4;
+    color: #edebeb;
+    border-radius: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 9px #666;
+  }
+  .questions {
+    height: 100px;
+  }
+  .hiderClass {
+    display: none;
+  }
